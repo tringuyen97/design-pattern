@@ -1,4 +1,4 @@
-package factory_method_pattern;
+package simple_method_pattern;
 
 /**
  * Creator: Nguyen Ngoc Tri

@@ -1,4 +1,4 @@
-package factory_method_pattern;
+package simple_method_pattern.object;
 
 /**
  * Creator: Nguyen Ngoc Tri
@@ -9,7 +9,7 @@ public abstract class Plan {
 
     protected double rate;
 
-    abstract void getRate();
+    public abstract void getRate();
 
     public void calculateBill(int units) {
         System.out.println(units * rate);

@@ -1,4 +1,7 @@
-package factory_method_pattern;
+package simple_method_pattern;
+
+import simple_method_pattern.factory.GetPlanFactory;
+import simple_method_pattern.object.Plan;
 
 import java.io.BufferedReader;
 import java.io.IOException;

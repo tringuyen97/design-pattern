@@ -1,4 +1,4 @@
-package factory_method_pattern;
+package simple_method_pattern.object;
 
 /**
  * Creator: Nguyen Ngoc Tri
@@ -7,7 +7,7 @@ package factory_method_pattern;
  */
 public class InstitutionalPlan extends Plan {
     @Override
-    void getRate() {
+    public void getRate() {
         rate = 5.50;
     }
 }
