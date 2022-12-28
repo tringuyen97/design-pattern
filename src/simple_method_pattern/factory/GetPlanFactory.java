@@ -1,4 +1,9 @@
-package simple_method_pattern;
+package simple_method_pattern.factory;
+
+import simple_method_pattern.object.CommercialPlan;
+import simple_method_pattern.object.DomesticPlan;
+import simple_method_pattern.object.InstitutionalPlan;
+import simple_method_pattern.object.Plan;
 
 /**
  * Creator: Nguyen Ngoc Tri
